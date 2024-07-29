@@ -2602,7 +2602,7 @@
           "type": "prometheus",
           "uid": "${datasource}"
         },
-        "definition": "label_values(kube_namespace_labels, namespace)",
+        "definition": "label_values(kube_namespace_created,namespace)",
         "hide": 0,
         "includeAll": true,
         "label": "Namespace",
@@ -2610,7 +2610,7 @@
         "name": "namespace",
         "options": [],
         "query": {
-          "query": "label_values(kube_namespace_labels, namespace)",
+          "query": "label_values(kube_namespace_created,namespace)",
           "refId": "Prometheus Datasource-namespace-Variable-Query"
         },
         "refresh": 1,

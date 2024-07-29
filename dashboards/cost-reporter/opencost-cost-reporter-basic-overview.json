@@ -1777,16 +1777,16 @@
           "type": "prometheus",
           "uid": "${datasource}"
         },
-        "definition": "label_values(kube_namespace_labels,namespace)",
+        "definition": "label_values(kube_namespace_created,namespace)",
         "hide": 0,
-        "includeAll": false,
+        "includeAll": true,
         "label": "Namespace",
-        "multi": false,
+        "multi": true,
         "name": "namespace",
         "options": [],
         "query": {
           "qryType": 1,
-          "query": "label_values(kube_namespace_labels,namespace)",
+          "query": "label_values(kube_namespace_created,namespace)",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 2,
