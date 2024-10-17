@@ -1803,8 +1803,8 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "OpenCost Dashboard-new",
-  "uid": "a5ed0a39-7b30-42c0-ba9a-be80b336372f",
+  "title": "OpenCost / Cost reporter / Basic overview",
+  "uid": "opencost-cost-reporter-basic-overview",
   "version": 52,
   "weekStart": ""
 }
